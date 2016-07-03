@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When we initialize a repository, some meta data with the name ".git" is created
+	in the directory we initialized the repository to store and track the history of our repository.
+	We get the messages about initializing the repository but the files in the directory are not
+	tracked by git yet. We can add them to the repository. We need to do this in order to create and
+	initialize a repository so that we can track the history of our projects and create commits.
+
+How is staging area different from the working directory and the repository? What value do you think it offers?
+
+	Working directory is the directory we are currently working on, where we might have created the repository.
+	Repository stores all of our commits for the projects, contains all the files of our project and keeps track
+	of all the files we want to keep track of. Staging area contains the files which we want to track and commit.
+	When we create a commit, a snapshot of only those files which are in the staging area is taken and stored in the
+	repository. This allows us to only keep track of the files we want to track because we might not want to track
+	all the files in the repository, and we get more control about the commits we want to make and the files we want to track.
