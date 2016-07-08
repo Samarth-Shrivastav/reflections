@@ -14,3 +14,11 @@ How is staging area different from the working directory and the repository? Wha
 	When we create a commit, a snapshot of only those files which are in the staging area is taken and stored in the
 	repository. This allows us to only keep track of the files we want to track because we might not want to track
 	all the files in the repository, and we get more control about the commits we want to make and the files we want to track.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	The staging area can be used to make sure that we have one commit per logical change by comparing it
+	to the working directory and the most recent commit whenever needed. We can compare it to the working
+	directory after making a change to make sure we stage every logical change correctly using "git diff"
+	and compare the staging area to the most recent commit before commiting to make sure that the changes
+	we are commiting are correct and one logical change using "git diff --staged".
