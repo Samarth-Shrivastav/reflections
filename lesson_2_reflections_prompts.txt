@@ -36,3 +36,11 @@ How do the diagrams help you visualize the branch structure?
 	in each branch. The commit histories in each branch are listed chronologically and help
 	to visualize the branch structure as it can be seen when and where each commit is made.
 	This helps to visualize how the commits are made and the branch structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Merging two branches together results in a single new commit with all the changes in
+	the two branches. This new commit becomes the tip of the branch we have checked out when
+	merging the two branches and has latest commits of both the branches we merge as it's
+	parents. We represent it in the diagram the way we do so that we can keep track of what
+	branches were merged and what commit was created by merging those branches.
