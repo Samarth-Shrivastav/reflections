@@ -44,3 +44,29 @@ What is the result of merging two branches together? Why do we represent it in t
 	merging the two branches and has latest commits of both the branches we merge as it's
 	parents. We represent it in the diagram the way we do so that we can keep track of what
 	branches were merged and what commit was created by merging those branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	Git's automatic merging
+
+	Pros
+	-Automatically merge obvious changes.
+	-Automatically get tedious tasks done.
+	-Automatically get repetitive tasks done.
+
+	Cons
+	-Cannot deal with conflicts.
+	-Won't always work, like when conflicts occur.
+	-May not be ideal when we wanna make some modifications in the merging process.
+
+	Always doing merges manually
+
+	Pros
+	-Complete flexibility of how we wanna merge, like making any modifications in the merging process.
+	-We can resolve conflicts.
+	-Will always work.
+
+	Cons
+	-Can get tedious at times, also when the changes are obvious, and when we don't need to merge manually.
+	-Repetitive tasks get tedious at times.
+	-Gets tedious.
