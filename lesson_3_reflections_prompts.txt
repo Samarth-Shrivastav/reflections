@@ -28,3 +28,9 @@ Describe the differences between forks, clones, and branches. When would you use
 	-We wanna fix or try fixing one or more bugs and not include any changes in the final versions of our projects just yet.
 	-We wanna make alternate versions of our projects that we don't wanna include them in the final versions of our projects just yet.
 	-We wanna push or pull only some commits from our repositories online to and from our repositories on GitHub and forks.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	Having a copy of the last known state of the remote stored locally can help us work offline. We can continue
+	to work offline with the reference, the locally stored copy, of the remote, without needing internet access,
+	which is useful in certain situations, when we don't have internet access.
