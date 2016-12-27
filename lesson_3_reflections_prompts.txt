@@ -34,3 +34,18 @@ What is the benefit of having a copy of the last known state of the remote store
 	Having a copy of the last known state of the remote stored locally can help us work offline. We can continue
 	to work offline with the reference, the locally stored copy, of the remote, without needing internet access,
 	which is useful in certain situations, when we don't have internet access.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	If we use another version-control system or platform, what would be easier and what would be harder would depend on the
+	comparision of the features of Git and GitHub and the features of the version-control system and platform we are using.
+	If we are not using any version-control system or platform, some or all things we can do without internet connection, like
+	having a discussion about what changes we should make and what new features and functionality we should add, and reviewing
+	and having a discussion about each other's changes and proposed ideas and prototypes, could be easier, but every collaborator
+	will have to be in person, and that's why it could be easier at some points, because every collaborator is in person, and
+	some things might be done greatly when everyone	is attenttive at the same time. That is not to say that this could not be
+	done over an internet connection from different	places, but there are some advantages over the other in	both cases (Not
+	in context of this question, but the best way when working would be to use these advantages wisely, everything can be done
+	over an internet connection, you get the point). As talking about what would be harder, working from different places and
+	without internet connection could be harder, because we will have to meet together from time to time to check what's happening
+	on the project in account of everyone's changes, and this can be harder compared to how we would collaborate using Git and GitHub.
